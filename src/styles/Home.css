@@ -3,11 +3,12 @@
     justify-content: space-around;
     height: 80vh;
     align-items: center;
+    overflow: hidden;
    
 }
 
 .img {
-    background-image: url(../../public/batu.jpeg);
+    background-image: url(/batu.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;

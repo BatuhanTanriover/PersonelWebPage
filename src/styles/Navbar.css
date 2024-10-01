@@ -32,9 +32,13 @@
     
 }
 .navbar__links a:hover {
-    color: #120628;
+    color: black;
     background: linear-gradient(to left,#aca414,rgb(183, 6, 227));
     border-radius: 10px;
     border: 3px solid white;
 
   }
+  
+.code{
+    margin: auto;
+}

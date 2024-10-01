@@ -16,7 +16,7 @@ export default function Footer() {
         </Link></div>
         
         <div className="Icon"><Link to="https://github.com/BatuhanTanriover">
-        <GitHubIcon  sx={{ fontSize: { xs: '2rem', sm: '3rem', md: '4rem' } }}/>
+        <GitHubIcon  sx={{ fontSize: { xs: '2rem', sm: '3rem', md: '4rem}' }} }/>
         </Link></div>
       
       </div>
