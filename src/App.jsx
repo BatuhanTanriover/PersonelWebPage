@@ -13,7 +13,6 @@ function App() {
     <div className='background'>
     <Navbar/>
       <Routes>
-      dsadsa
       
       <Route path='/' element={<Home/>} />
      
