@@ -1,0 +1,121 @@
+.Home__Main{
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+    align-items: center;
+   
+}
+
+.img {
+    background-image: url(../../public/batu.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    clip-path: circle(50% at 50% 50%);
+    width: 30rem;
+    height: 30rem;
+    
+
+}
+.text__ad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+
+.block__1{
+    display: flex;
+    justify-content: space-around;
+}
+.container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 25rem; 
+    border: 2px solid #333;
+    padding: 10px;
+    background:linear-gradient(to left,#aca414,rgb(183, 6, 227));
+}
+.marquee {
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+}
+.marquee span {
+    margin: 0 15px; 
+    color:white;
+    
+}
+.slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace;
+    margin: 2rem;
+    padding: 1rem;
+    gap: 1rem
+}
+.slide h3 {
+    font-size: 2rem;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@media (max-width: 1400px) { /* Extra Extra Large */
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1200px) { /* Extra Large */
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) { /* Large */
+    html {
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) { /* Medium */
+    html {
+        font-size: 14px;
+    }
+    .img {
+        width: 15rem; 
+        height: 15rem;
+    }
+    .text__ad {
+        font-size: 1rem;
+
+    }
+    .navbar__links a{
+        width: 5rem;
+    }
+
+}
+
+
+@media (max-width: 576px) { /* Small */
+    html {
+        font-size: 12px;
+    }
+
+@media (max-width:400){
+    html{
+        font-size: 9px;
+    }
+}
+}

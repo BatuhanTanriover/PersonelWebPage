@@ -1,0 +1,29 @@
+.Footer__main{
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+    background: linear-gradient(to left,rgb(18, 40, 119),rgb(92, 66, 124));
+
+}
+
+.Icons{
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+}
+.Icon{
+    background: linear-gradient(to left,#aca414,rgb(183, 6, 227));
+    border-radius: 10px;
+    border: 3px solid white;
+
+}
+.Icons__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.spans{
+    color:white;
+    vertical-align:middle
+}
