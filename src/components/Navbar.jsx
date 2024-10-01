@@ -1,12 +1,11 @@
 import {Link} from "react-router-dom"
 import "../styles/Navbar.css"
-import CodeIcon from '@mui/icons-material/Code';
 
 export default function navbar() {
   return (
     <div className="navbar__main">
       <div className="code">
-      <CodeIcon className="Icon" sx={{ fontSize: { xs: '3rem', sm: '4rem', md: '5rem}'}} }/>
+      <img className="img2" src="deneme.png" alt="pixelart" />
       </div>
     <ul className="navbar__links">
      <Link to="/"><li>Home</li></Link> 

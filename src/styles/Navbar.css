@@ -40,5 +40,13 @@
   }
   
 .code{
-    margin: auto;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+margin: auto;
+}
+.img2{
+    width: 10rem;
+    height: 7.1rem;
+
 }

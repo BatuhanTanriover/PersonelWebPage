@@ -90,7 +90,7 @@
         font-size: 14px;
     }
 }
-@media (max-width: 768px) { /* Medium */
+@media (max-width: 800px) { /* Medium */
     html {
         font-size: 14px;
     }
@@ -103,11 +103,18 @@
 
     }
     .navbar__links a{
-        width: 5rem;
+        width: 6rem;
     }
+    .navbar__main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
+    }
 }
 
+    
 
 @media (max-width: 576px) { /* Small */
     html {
@@ -126,3 +133,4 @@
     
 }
 }
+
