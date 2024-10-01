@@ -113,10 +113,16 @@
     html {
         font-size: 12px;
     }
+    .Icons{
+        flex-direction: column;
+        justify-content: center;
+        gap: 4rem;
+    }
 
 @media (max-width:400){
     html{
         font-size: 9px;
     }
+    
 }
 }
